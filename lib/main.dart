@@ -21,11 +21,10 @@ class App extends StatelessWidget {
       // UI가 구성되는 틀을 제공해주기 때문
       home: Scaffold(
         appBar: AppBar(
-          title: Center(
-            child: Text("Hello flutter"),
-          ),
+          centerTitle: true, // title 위치를 center로 지정 가능
+          elevation: 1, // AppBar의 그림자 정도 설정
+          title: Text("Hello flutter"),
         ),
-        //for commit
         body: Center(
           child: Text("Hello World!"),
         ),

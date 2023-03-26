@@ -1,0 +1,5 @@
+2.4 Recap
+
+1. AppBar class
+   - Bool centerTitle // title 위치를 center로 지정 가능
+   - Int elevation // AppBar의 그림자 정도 설정
