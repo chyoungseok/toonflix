@@ -25,6 +25,7 @@ class App extends StatelessWidget {
             child: Text("Hello flutter"),
           ),
         ),
+        //for commit
         body: Center(
           child: Text("Hello World!"),
         ),
