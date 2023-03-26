@@ -1,7 +1,15 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+class Player {
+  String name;
+  String? team; // team은 값을 안가질 수도 있음.
+  // constructor를 통해서 값을 지정해주지 않아도 오류가 발생하지 않음
+  Player({required this.name});
+}
+
 void main() {
+  var nico = Player(name: "potato");
   runApp(App());
 }
 
@@ -26,7 +34,7 @@ class App extends StatelessWidget {
           title: Text("Hello flutter"),
         ),
         body: Center(
-          child: Text("Hello World!"),
+          child: Text("Hello UR ! ♥"),
         ),
       ),
     );
